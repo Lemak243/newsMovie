@@ -1,0 +1,16 @@
+.items{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
+    .image{
+        width: 35%;
+        height: 250px;
+        background-color: bisque;
+    }
+    .content{
+        width: 60%;
+        height: 250px;
+        background-color: rgb(21, 16, 9);
+    }
+}

@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { UserComponent } from './login/user/user.component';
 import { AjouterUserComponent } from './login/user/ajouter-user/ajouter-user.component';
 import { ModifierUserComponent } from './login/user/modifier-user/modifier-user.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ModifierUserComponent } from './login/user/modifier-user/modifier-user.
     LoginComponent,
     UserComponent,
     AjouterUserComponent,
-    ModifierUserComponent
+    ModifierUserComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

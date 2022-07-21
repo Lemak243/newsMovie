@@ -1,0 +1,22 @@
+body{
+    background-color: darkslategrey;
+    .titre{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .container{
+        width: 1280px;
+        .menuMarginTop{
+            margin-top: 10%;
+        }
+    }
+    .signature{
+        color: #FFFFFF;
+    }
+    hr{
+        background-color: #FFFFFF;
+    }
+}
